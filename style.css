@@ -1,0 +1,43 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+#container {
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 50px;
+
+}
+#container > table {
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    margin: 10px;
+}
+
+table {
+    border: 2px solid rgb(177, 194, 240);
+    text-align: left;
+     table-layout:fixed; 
+  
+   
+}
+
+table tr:nth-child(even) td{
+background-color: rgb(177, 194, 240);
+}
+
+table tr:nth-child(odd) td{
+background-color: rgb(112, 145, 236);
+}
+
+table td {
+    height: 1.7em;
+}
+
+table td {
+    padding-right:10px;
+}
