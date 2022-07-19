@@ -24,6 +24,9 @@ function getSelectedCountriesInfo(url) {
 async function sortCountriesByContinent() {
 
     const data = await getSelectedCountriesInfo(url)
+    console.log(data[0].currencies.AED.name)
+    console.log(data)
+
     numOfCountriesInContinent = {}
     let contentForTable = ""
 
@@ -90,3 +93,6 @@ getCountryPopulation(data)
                             </table>`
 
 }
+
+
+// countries.map(country=>country.currencies.map(currency=>currency.name))
